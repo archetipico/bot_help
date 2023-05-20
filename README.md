@@ -35,7 +35,7 @@ Converte il codice del colore nel nome reale del colore (non serve inserire # pr
 > cptf                      # come sopra
 
 # edge[ <min> <max>]
-Usato in risposta ad una foto, trova i contorni e li restituisce come sovraimposizione dell'immagine (è sempre il Canny Edge Detector ma con un alpha imposto)
+Usato in risposta ad una foto, trova i contorni e li restituisce come sovrimposizione dell'immagine (è sempre il Canny Edge Detector ma con un alpha imposto)
 > edge                      # di default impostato a (50, 150)
 > edge 60, 120
 > edge 10, 100
