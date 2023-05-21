@@ -120,6 +120,12 @@ Scala un'immagine usando la tecnica del Liquid Rescaling usando un valore <val> 
 > scale 90                  # deformazione
 > scale 1                   # radiazione cosmica di fondo
 
+# solve <calcolo>
+Risolvi qualsiasi cosa passando un <comando>
+> solve 1 + 1
+> solve 6 feet to m
+> solve problemi vita       # purtroppo i nostri problemi dobbiamo risolverceli da soli
+
 # stats
 Mostra l'utilizzo dei comandi
 ** N.B. "Fallito" non si riferisce a chi usa il comando **
