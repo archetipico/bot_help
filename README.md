@@ -100,7 +100,7 @@ Mostra rilievo di una foto: il famoso filtro gaussiano
 > relief 10, 2
 
 # reverse[ list]
-Inverte video e audio di GIF, MOV, MP4 e WEBM (che su Telegram spesso sono gli sticker animati)
+Inverte video e audio di GIF, MOV, MP3, MP4, OGG e WEBM (che su Telegram spesso sono gli sticker animati)
 ** N.B. Nel mio caso il bot gira su un Raspberry: se vedete che l'output non si apre o pesa pochissimo, significa che il comando richiede troppa RAM **
 > reverse list                # l'elenco di tutti i formati supportati
 > reverse
