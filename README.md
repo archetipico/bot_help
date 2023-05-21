@@ -99,6 +99,11 @@ Mostra rilievo di una foto: il famoso filtro gaussiano
 > relief 15, 4
 > relief 10, 2
 
+# reverse[ list]
+Inverte video e audio di GIF, MOV, MP4 e WEBM (che su Telegram spesso sono gli sticker animati)
+> reverse list                # l'elenco di tutti i formati supportati
+> reverse
+
 # roll[ <n>]
 Lancia un dado ad n facce: il comando senza valore <n> esegue un lancio di un dado a 6 facce
 > roll                      # di default impostato a 6
