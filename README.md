@@ -26,13 +26,14 @@ Converte il codice del colore nel nome reale del colore (non serve inserire # pr
 > color 00ff44              # lo detesto come colore ma ha un bell'hex
 > color 696969
 
-# cptf <up>, <down>
-(CaPTion Fast) Crea caption su immagini (PNG o JPEG) e su GIF (velocizzandole)
-> cptf top, bottom          # il classico
-> cptf top text,
-> cptf , bottom text
-> cptf ,                    # velocizza e basta
-> cptf                      # come sopra
+# cpt[ -f] <up>, <down>
+(CaPTion) Crea caption su immagini (PNG o JPEG), su GIF e su video
+> cpt top, bottom          # il classico
+> cpt top text,
+> cpt , bottom text
+> cpt ,                    # velocizza e basta
+> cpt                      # come sopra
+> cpt -f top, bottom       # come prima ma velocizza il tutto
 
 # edge[ <min> <max>]
 Usato in risposta ad una foto, trova i contorni e li restituisce come sovrimposizione dell'immagine (è sempre il Canny Edge Detector ma con un alpha imposto)
