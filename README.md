@@ -36,9 +36,9 @@ Converte il codice del colore nel nome reale del colore (non serve inserire # pr
 
 # edge[ <min> <max>]
 Usato in risposta ad una foto, trova i contorni e li restituisce come sovrimposizione dell'immagine (è sempre il Canny Edge Detector ma con un alpha imposto)
-> edge                      # di default impostato a (50, 150)
-> edge 60, 120
-> edge 10, 100
+> edge                      # di default impostato a (50 150)
+> edge 60 120
+> edge 10 100
 
 # face
 Trova volti e occhi all'interno di una foto (algoritmo MOLTO approssimativo)
@@ -95,9 +95,9 @@ Applica una sostituzione del testo data una regex
 
 # relief[ <n> <k>]
 Mostra rilievo di una foto: il famoso filtro gaussiano
-> relief                    # di default impostato a (30, 2)
-> relief 15, 4
-> relief 10, 2
+> relief                    # di default impostato a (30 2)
+> relief 15 4
+> relief 10 2
 
 # reverse[ list]
 Inverte video e audio di GIF, MOV, MP3, MP4, OGG e WEBM (che su Telegram spesso sono gli sticker animati)
